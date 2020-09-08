@@ -1,0 +1,58 @@
+
+h1 {
+    font-family: monospace;
+    font-size: 100%;
+    color: black;
+}
+
+body {
+    background : whitesmoke ;
+    color : yellowgreen ;
+}
+
+a {
+    color : green ;
+    text-decoration : none;
+}
+a:hover {
+    color : whitesmoke;
+    background: yellowgreen;
+    text-decoration: none;
+}
+
+.special_color {
+    color : pink;
+}
+.special_size{
+    font-size: 50px;
+}
+
+.indent {
+    margin-left : 10px;
+}
+
+.gap_above {
+    margin-top: 100px;
+}
+
+
+p {
+    color : orange;
+}
+
+@media (min-width: 600px){
+    .special_size{
+        color: yellow;
+        
+    }
+}
+
+@media (min-width: 800px){
+    .special_size{
+        color: purple;
+    }
+}
+
+
+
+
