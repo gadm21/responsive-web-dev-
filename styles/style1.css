@@ -68,3 +68,16 @@ p {
 .color2 {
     color: blue;
 }
+
+
+
+.small_image {
+    border : 5px dashed black;
+    width : 100%;
+}
+
+.big_image {
+    border : 10px solid black;
+    width : 100%;
+    height : 100%;
+}
